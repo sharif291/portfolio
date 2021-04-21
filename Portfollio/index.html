@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="images/logo.png" width="100px" alt="logo" />
+          </div>
+          <nav>
+            <ul id="menu-items">
+              <li>
+                <a href="#about" onclick="menutoogle()">About</a>
+                <div class="after"></div>
+              </li>
+              <li>
+                <a href="#projects" onclick="menutoogle()">Projects</a>
+                <div class="after"></div>
+              </li>
+              <li>
+                <a href="#testimonials" onclick="menutoogle()">Testimonials</a>
+                <div class="after"></div>
+              </li>
+              <li>
+                <a href="#contact" onclick="menutoogle()">Contact</a>
+                <div class="after"></div>
+              </li>
+              <li>
+                <a href="#clients" onclick="menutoogle()">Clients</a>
+                <div class="after"></div>
+              </li>
+            </ul>
+          </nav>
+          <!-- <img src="images/cart.png" width="30px" height="30px" alt="" /> -->
+          <img src="images/menu.png" class="menu-icon" onclick="menutoogle()" />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>Hey I'am <br />Sharif Hossain !</h1>
+            <p>Software Engineer at Halcyon.</p>
+            <a href="" class="btn">Read Me &#8594;</a>
+          </div>
+          <div class="col-2">
+            <div id="slider">
+              <img src="images/sharif2.webp">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------Projects--------- -->
+    <div class="projects" id="projects">
+      <div class="small-container">
+        <h2 class="title">Projects</h2>
+        <div class="row">
+          <div class="col-3">
+            <img src="images/enrich.jpg" alt="" />
+            <h3>Enrich Website</h3>
+            <p>
+              Website of Enrich Group LLC which is a world leading technology
+              company delivering End to End Cybersecurity and OSINT custom
+              solutions to National Security & Defense, Law Enforcement,
+              Banking/Financial, Health Care and Education.
+            </p>
+            <p>Developed using HTML5, CSS3, Reactjs framework</p>
+            <a href="https://enrichgrp.com/" class="btn" target="_blank"
+              >Visit Now &#8594;</a
+            >
+          </div>
+          <div class="col-3">
+            <img src="images/phm.jpg" alt="" />
+            <h3>Pharmacy Management System</h3>
+            <p>
+              Typical Pharmacy management system, that stores data and enables
+              functionality that organizes and maintains the medication use
+              process within pharmacies.
+            </p>
+            <p>
+              Developed as a part of Under Graduate Program, using Python,
+              HTML5, CSS3, Flask Framework
+            </p>
+            <a class="btn" href="https://github.com/sharif291" target="_blank"
+              >Check Github &#8594;</a
+            >
+          </div>
+          <div class="col-3">
+            <img src="images/spp.jpg" alt="" />
+            <h3>Stock Price Predictor</h3>
+            <p>
+              Stock Price Predictor is a price predictor app using Machine
+              Learning Technology. It predicts the prices based on the previous
+              price of any particular product and comaparing with them.
+            </p>
+            <p>
+              Developed as partial fulfillment of the Under Graduate program,
+              using python, HTML5, CSS3, Machine Learning Alogrithms
+            </p>
+            <a class="btn" href="https://github.com/sharif291" target="_blank"
+              >Check Github &#8594;</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------About Me--------- -->
+    <div class="about" id="about">
+      <div class="small-container">
+        <h2 class="title">About Me</h2>
+        <div class="row">
+          <div class="col-2">
+            <img src="images/sharif.webp" alt="" />
+          </div>
+          <div class="col-2">
+            <h2>Experience</h2>
+            <p>
+              2.5 years of experience in Web Development. Works with different
+              IT Companies as well as some International Clients.
+            </p>
+            <h2>Education</h2>
+            <p>
+              Completed my Bachelor in Computer Science and Engineering from
+              <abbr
+                title="International University of Business Agriculture and Technology"
+                >IUBAT</abbr
+              >
+              university in Dhaka.
+            </p>
+            <p>
+              Completed my H.S.C. and S.S.C from Savar cantonment College
+              (Savar, Dhaka) and Sarishabari R.D.M. Pilot High School
+              (sarishabari, Jamalpur).
+            </p>
+            <h2>Interests</h2>
+            <p>
+              Major Interests are Software and Web Design and Web Deelopment.
+              <br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------------Testimonial------------->
+    <div class="testimonial" id="testimonials">
+      <div class="small-container">
+        <h2 class="title">Testimonials</h2>
+        <div class="row">
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Not only was Sharif’s work on-time and to spec, he pays attention
+              to improve the aesthetics of the site as well as the
+              functionality. Throughout the entire process he is responsive, and
+              willing to work through issues as they arise. It’s obvious he
+              takes tremendous pride in his work, and I wouldn’t hesitate to
+              recommend or work with him again.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <img src="images/zunayedali.jpg" alt="" />
+            <h3>Zunayed Ali</h3>
+            <p>CEO, Halcyon</p>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Working with Sharif was better than expected and we had really
+              high expectations. He is an incredibly talented developer but what
+              really makes him stand out is his work ethic and steady approach.
+              Time after time, and without us asking, he added enhancements and
+              improvements that resulted in a better end product for us and our
+              clients.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <img src="images/bappy.jpg" alt="" />
+            <h3>HR Bappy</h3>
+            <p>-Enrich Group Ltd</p>
+          </div>
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Sharif has done a fantastic job overall. Not only the site is to
+              design, the code is very clean and slick. Love the way he achieved
+              the translations portion of the site.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+            <img src="images/nayeem.jpg" alt="" />
+            <h3>Md. Nayeem Uddin</h3>
+            <p>CEO, SERP Ltd</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------Brands------- -->
+    <div class="brands" id="clients">
+      <div class="small-container">
+        <h2 class="title">Clients</h2>
+        <div class="row">
+          <div class="col-5">
+            <img src="images/client-enrich.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/client-halcyon.webp" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/serp.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="images/talentracker.webp" alt="" />
+          </div>
+          <!-- <div class="col-5">
+            <img src="images/logo-philips.png" alt="" />
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- --------------------Contact------- -->
+    <div class="contact" id="contact">
+      <div class="small-container">
+        <h2 class="title">Follow Me On</h2>
+        <div class="row">
+          <div class="col-2">
+            <div class="row">
+              <div class="col-5">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100015040449555"
+                  target="_blank"
+                >
+                  <img src="images/fb.webp" alt="" />
+                </a>
+              </div>
+              <div class="col-5">
+                <a href="">
+                  <img src="images/instagram.png" alt="" />
+                </a>
+              </div>
+              <div class="col-5">
+                <a href="https://www.linkedin.com/in/sharif-hossain-b3a5a815a/">
+                  <img src="images/linkedin.png" alt="" />
+                </a>
+              </div>
+              <div class="col-5">
+                <a
+                  href="https://api.whatsapp.com/send?phone=+8801727647343&text="
+                  target="_blank"
+                >
+                  <img src="images/whatsapp.png" alt="" />
+                </a>
+              </div>
+              <div class="col-5">
+                <a href="mailto: sharif.hossain.iubat@gmail.com">
+                  <img src="images/mail.webp" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <h2 class="title">Send Message</h2>
+            <form action="#" autocomplete="off">
+              <fieldset>
+                <input
+                  id="first"
+                  type="text"
+                  name="first"
+                  placeholder="First Name"
+                  required
+                />
+                <div class="after"></div>
+              </fieldset>
+              <fieldset>
+                <input
+                  id="last"
+                  type="text"
+                  name="last"
+                  placeholder="Last Name"
+                  required
+                />
+                <div class="after"></div>
+              </fieldset>
+              <fieldset>
+                <input
+                  id="email"
+                  type="text"
+                  name="email"
+                  placeholder="Enter your Mail"
+                  required
+                />
+                <div class="after"></div>
+              </fieldset>
+              <fieldset>
+                <textarea
+                  type="text"
+                  id="message"
+                  name="message"
+                  placeholder="Type Your Message Here"
+                ></textarea>
+                <div class="after"></div>
+              </fieldset>
+              <fieldset>
+                <button>Submit</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------Footer------------ -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Navigate To</h3>
+            <ul>
+              <li>
+                <a href="#">Top</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#testimonials">Testimonials</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+              <li>
+                <a href="#clients">Clients</a>
+              </li>
+            </ul>
+            <!-- <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem recusandae impedit quam necessitatibus dicta enim!
+            </p>
+            <div class="app-logo">
+              <img src="images/play-store.png" alt="" />
+              <img src="images/app-store.png" alt="" />
+            </div> -->
+          </div>
+          <div class="footer-col-2">
+            <img src="images/logo.png" alt="" />
+            <!-- <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem recusandae impedit quam necessitatibus dicta enim!
+            </p> -->
+          </div>
+          <!-- <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Cuopons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div> -->
+          <div class="footer-col-3">
+            <h3>Follow On</h3>
+            <ul>
+              <li><a href="https://www.facebook.com/profile.php?id=100015040449555" target="_blank">Facebook</a></li>
+              <li><a href="https://www.linkedin.com/in/sharif-hossain-b3a5a815a/" target="_blank">LinkedIn</a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=+8801727647343&text=" target="_blank">WhatsApp</a></li>
+              <li><a href="mailto: sharif.hossain.iubat@gmail.com" target="_blank">Gmail</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copy-right">Copy right 2020</p>
+      </div>
+    </div>
+    <!-- --------------JS for Toogle menu-------- -->
+    <script>
+      var menuItems = document.getElementById("menu-items");
+      menuItems.style.maxHeight = "0px";
+      function menutoogle() {
+        if (menuItems.style.maxHeight == "0px") {
+          menuItems.style.maxHeight = "200px";
+        } else {
+          menuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
